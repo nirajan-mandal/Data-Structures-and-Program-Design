@@ -1,5 +1,7 @@
 # Data Structures and Program Design
-Data structures and program design couse [MATH 218](https://www2.kenyon.edu/Depts/Math/Aydin/Teach/Sp08/218/) using C++ at Kenyon College. 
+Data structures and program design course using C++ at Kenyon College. 
+
+The description of the lab assignments can be found on the course page: [MATH 218](https://www2.kenyon.edu/Depts/Math/Aydin/Teach/Sp08/218/)
 
 Textbook: Data Structures using C++ by D. S. Malik
 
