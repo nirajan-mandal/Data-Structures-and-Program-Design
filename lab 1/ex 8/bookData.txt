@@ -1,0 +1,45 @@
+5
+Program Design and Problem Solving in C++
+0-07-245301-X
+McGraw Hill
+2000
+52.50
+20
+1
+Malik, D.S.
+Fuzzy Discrete Structures
+3-7908-1335-4
+Physica-Verlag
+2000
+89.00
+10
+2
+Malik, Davender
+Mordeson, John
+Fuzzy Mathematic in Medicine
+3-7908-1325-7
+Physica-Verlag
+2000
+89.00
+10
+3
+Mordeson, John
+Malik, Davender
+Cheng, Shih-Chung
+Harry and The Prisoner 
+0-439-13635-0
+A. A.Books
+1999
+19.95
+10
+1
+Goofy, Goof
+Dynamic Web Programming
+1-4444-363-1
+Net Publishing
+1998
+39.99
+25
+1
+Mouse, JJ
+
