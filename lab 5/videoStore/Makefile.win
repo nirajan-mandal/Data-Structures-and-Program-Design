@@ -1,0 +1,45 @@
+# Project: VideoStore
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = videoTypeImp.o testVideoStore.o videoLinkedListType.o personImp.o customerType.o customerListType.o $(RES)
+LINKOBJ  = videoTypeImp.o testVideoStore.o videoLinkedListType.o personImp.o customerType.o customerListType.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib"  
+INCS =  -I"C:/Dev-Cpp/include" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include" 
+BIN  = VideoStore.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before VideoStore.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "VideoStore.exe" $(LIBS)
+
+videoTypeImp.o: videoTypeImp.cpp
+	$(CPP) -c videoTypeImp.cpp -o videoTypeImp.o $(CXXFLAGS)
+
+testVideoStore.o: testVideoStore.cpp
+	$(CPP) -c testVideoStore.cpp -o testVideoStore.o $(CXXFLAGS)
+
+videoLinkedListType.o: videoLinkedListType.cpp
+	$(CPP) -c videoLinkedListType.cpp -o videoLinkedListType.o $(CXXFLAGS)
+
+personImp.o: personImp.cpp
+	$(CPP) -c personImp.cpp -o personImp.o $(CXXFLAGS)
+
+customerType.o: customerType.cpp
+	$(CPP) -c customerType.cpp -o customerType.o $(CXXFLAGS)
+
+customerListType.o: customerListType.cpp
+	$(CPP) -c customerListType.cpp -o customerListType.o $(CXXFLAGS)
